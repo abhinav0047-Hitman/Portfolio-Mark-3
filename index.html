@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhinav Ranjan's Portfolio - AI Enthusiast and Python Developer">
+    <meta name="keywords" content="AI, Machine Learning, Python, Data Analysis, Deep Learning, Portfolio">
+    <meta name="author" content="Abhinav Ranjan">
+    <title>Abhinav Ranjan - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Abhinav Ranjan</h1>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="profile-img-container">
+                <img src="images/profile.jpg" alt="Abhinav Ranjan" class="profile-img">
+            </div>
+            <h1>Abhinav Ranjan</h1>
+            <p>AI Enthusiast | Python Developer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#" class="btn btn-outline" download>Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a passionate <strong>AI and Machine Learning enthusiast</strong> currently pursuing my <strong>BTech in Computer Science</strong>. I have a strong foundation in <strong>Python programming, data analysis, and machine learning algorithms</strong>. My expertise includes building predictive models, working with neural networks, and developing AI-driven solutions. I am always eager to learn and apply my skills to solve real-world problems. My goal is to contribute to innovative AI projects and make a meaningful impact in the field.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Python</h3>
+                    <p>Proficient in Python for AI, ML, and data analysis.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Experience with supervised and unsupervised learning.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Skilled in data cleaning, visualization, and analysis.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Deep Learning</h3>
+                    <p>Hands-on experience with YOLO for object detection</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Experience with database management and queries.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-brain"></i>
+                    <h3>DBMS</h3>
+                    <p>Knowledge of Data base management system </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/image1.jpg" alt="Predictive Analytics Dashboard" loading="lazy">
+                    </div>
+                    <h3>Smart CCTV Camera</h3>
+                    <p>A Smart AI CCTV System with a modern, user-friendly interface.</p>
+                    <a href="#predictive-analytics-modal" class="btn read-more">Read More</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/image2.jpg" alt="Image Classification Interface" loading="lazy">
+                    </div>
+                    <h3>Image Classification</h3>
+                    <p>Built a CNN model to classify images of cats and dogs.</p>
+                    <a href="#image-classification-modal" class="btn read-more">Read More</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/image3.jpg" alt="Sentiment Analysis Results" loading="lazy">
+                    </div>
+                    <h3>Sentiment Analysis</h3>
+                    <p>Created a sentiment analysis tool using NLP techniques.</p>
+                    <a href="#sentiment-analysis-modal" class="btn read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="predictive-analytics-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3>Smart CCTV Camera</h3>
+            </div>
+            <div class="modal-body">
+                <img src="images/image1.jpg" alt="Detailed view of Predictive Analytics Dashboard">
+                <p><strong>Project Description:</strong> A next-generation AI-powered surveillance solution that enhances security with real-time monitoring, intelligent detection, and automated alerts. Unlike traditional CCTV cameras, this system uses computer vision and deep learning to analyze video feeds, detect threats, and reduce false alarms..</p>
+                <p><strong>Technologies Used:</strong> Python, YOLO , openCV , Numpy , pillow, Tkinter</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Detects movement in the camera's field of view</li>
+                    <li>Object detection and classification (e.g., humans, vehicles, animals)</li>
+                    <li>Identifies and verifies individuals using facial features</li>
+                    <li>Interactive dashboard </li>
+                    <li>Model achieved 85% accuracy on test data</li>
+                </ul>
+                <p><strong>Challenges & Solutions:</strong> Initially faced issues with overfitting, which was resolved by implementing regularization techniques and feature selection. Also created a custom time-series validation method to better evaluate model performance.</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <div id="image-classification-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3>Image Classification</h3>
+            </div>
+            <div class="modal-body">
+                <img src="images/image2.jpg" alt="Detailed view of Image Classification Interface">
+                <p><strong>Project Description:</strong> Built a convolutional neural network (CNN) to classify images of cats and dogs with high accuracy. The model can be extended to recognize other animals or objects with additional training.</p>
+                <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV, NumPy</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Custom CNN architecture with dropout layers</li>
+                    <li>Data augmentation to improve generalization</li>
+                    <li>Transfer learning with fine-tuning</li>
+                    <li>Model achieved 97% accuracy on validation set</li>
+                    <li>Deployed as a web application using Flask</li>
+                </ul>
+                <p><strong>Challenges & Solutions:</strong> Limited training data was augmented using rotation, flipping, and zoom techniques. Implemented early stopping and learning rate reduction to prevent overfitting. Optimized model for both accuracy and inference speed.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="sentiment-analysis-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3>Sentiment Analysis</h3>
+            </div>
+            <div class="modal-body">
+                <img src="images/image3.jpg" alt="Detailed view of Sentiment Analysis Results">
+                <p><strong>Project Description:</strong> Created a sentiment analysis tool that processes customer reviews and classifies them as positive, negative, or neutral. The system helps businesses quickly gauge customer satisfaction and identify areas for improvement.</p>
+                <p><strong>Technologies Used:</strong> Python, NLTK, SpaCy, Transformers, Flask</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Preprocessing pipeline for text cleaning</li>
+                    <li>Multiple model approaches (Traditional ML and BERT)</li>
+                    <li>Real-time analysis of streaming data</li>
+                    <li>Dashboard for sentiment visualization</li>
+                    <li>Model achieved 89% accuracy on benchmark datasets</li>
+                </ul>
+                <p><strong>Challenges & Solutions:</strong> Handled sarcasm and context-dependent sentiment by implementing a hybrid model combining lexicon-based and machine learning approaches. Deployed the model with an API endpoint for easy integration with other systems.</p>
+            </div>
+          
+        </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Generative AI</h3>
+                    <p>Microsoft</p>
+                    <p>Issued: April 2025</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Python </h3>
+                    <p>LetsUpgrade</p>
+                    <p>Issued: March 2025</p>
+                    <p>Credential ID LUEPYTMAR1252568</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>AI Agents for Beginners</h3>
+                    <p>Simplilearn</p>
+                    <p>Issued: April 2025</p>
+                    <p>Credential ID 8145156</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Machine learning</h3>
+                    <p>LetsUpgrade</p>
+                    <p>Issued: August 2024</p>
+                    <p>Credential ID LUEMLJUL1241142</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Chat Gpt Advance Course</h3>
+                    <p>Simplilearn</p>
+                    <p>Issued: April 2025</p>
+                    <p>Credential ID 8179666</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-award"></i>
+                    <h3>AI For Everyone</h3>
+                    <p>DeepLearning.AI</p>
+                    <p>Issued: January 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="section">
+        <div class="container">
+            <h2>Qualifications</h2>
+            <div class="qualifications-grid">
+                <div class="qualification-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Bachelor of Technology (B.Tech)</h3>
+                    <p>Computer Science and Engineering (AI)</p>
+                    <p>Rungta College of Engineering and Technology, Raipur</p>
+                    <p>Year: 2022 - 2026</p>
+                </div>
+                <div class="qualification-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Higher Secondary Education</h3>
+                    <p>Kendriya Vidyalaya, Patna</p>
+                    <p>Year: 2020 - 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> abhinavranjan0047@gmail.com</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/abhinav-ranjan-bbaa8b289/" target="_blank">LinkedIn Profile</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/abhinav0047-Hitman" target="_blank">GitHub Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abhinav Ranjan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
